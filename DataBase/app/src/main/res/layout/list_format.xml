@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="age: 23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="45dp"
+        android:id="@+id/age" />
+
+    <TextView
+        android:text="salary:0000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="71dp"
+        android:id="@+id/ammount" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/redmeat"
+        android:layout_x="193dp"
+        android:layout_y="38dp"
+        android:id="@+id/diet" />
+
+    <TextView
+        android:text="fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="306dp"
+        android:layout_y="45dp"
+        android:id="@+id/food" />
+
+    <TextView
+        android:text="chicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="306dp"
+        android:layout_y="71dp"
+        android:id="@+id/food2" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/male"
+        android:layout_x="136dp"
+        android:layout_y="38dp"
+        android:id="@+id/gender" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="249dp"
+        android:layout_y="38dp"
+        android:id="@+id/color"
+        app:srcCompat="@android:color/transparent" />
+
+    <TextView
+        android:text="IVAN SANGINES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textStyle="normal|bold"
+        android:layout_x="148dp"
+        android:layout_y="11dp" />
+</AbsoluteLayout>

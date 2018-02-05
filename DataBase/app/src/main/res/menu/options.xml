@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/everyone"
+        android:title="Show all"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/option2"
+        android:title="Ms. Milton"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/op1"
+                android:title="Who like chicken"
+
+                />
+            <item
+                android:id="@+id/op2"
+                android:title="Who like goat"
+
+                />
+            <item
+                android:id="@+id/op3"
+                android:title="Who makes less than 60k"
+
+                />
+            <item
+                android:id="@+id/op4"
+                android:title="Who are younger than 38"
+
+                />
+            <item
+                android:id="@+id/op5"
+                android:title="Who like blue and are female"
+
+                />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/option3"
+        android:title="Mr. Grunt"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/c1"
+                android:title="Who make more than 70k"
+
+                />
+            <item
+                android:id="@+id/c2"
+                android:title="Who are older than 40 with poultry diet"
+
+                />
+            <item
+                android:id="@+id/c3"
+                android:title="Who like turkey 1st and under 40"
+
+                />
+            <item
+                android:id="@+id/c4"
+                android:title="Who are male and are red meat lovers"
+
+                />
+            <item
+                android:id="@+id/c5"
+                android:title="Who are vegetarian females and 1st/2nd food tofu "
+
+                />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/option4"
+        android:title="Common requests"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/r1"
+                android:title="Last name starts with M or O and fav color is blue"
+
+                />
+            <item
+                android:id="@+id/r2"
+                android:title="last request"
+
+                />
+
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete DataBase"
+        app:showAsAction="never"
+        />
+
+</menu>
