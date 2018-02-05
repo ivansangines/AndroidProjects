@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Flags</string>
+
+    <string-array name="regionsList">
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>North America</item>
+        <item>South America</item>
+    </string-array>
+
+</resources>
