@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="memory_relative">Memory: Relative</string>
+    <string-array name="game_modes">
+        <item>select game mode</item>
+        <item>3 pairs</item>
+        <item>6 pairs</item>
+        <item>10 pairs</item>
+    </string-array>
+</resources>

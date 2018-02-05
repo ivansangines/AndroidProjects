@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="Ivan Sangines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/name"
+        android:textAlignment="center"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/tittle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="968606"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/idnum"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:src="@drawable/ivan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/idnum"
+        android:layout_marginBottom="150dp" />
+
+    <TextView
+        android:text="Memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tittle"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Relative Layout Version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp" />
+</RelativeLayout>
